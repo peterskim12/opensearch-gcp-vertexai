@@ -1,0 +1,92 @@
+{
+    "mappings": {
+        "properties": {
+            "brand": {
+                "type": "text",
+                "fields": {
+                    "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                    }
+                }
+            },
+            "category": {
+                "type": "text",
+                "fields": {
+                    "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                    }
+                }
+            },
+            "color": {
+                "type": "text",
+                "fields": {
+                    "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                    }
+                }
+            },
+            "description": {
+                "type": "text",
+                "fields": {
+                    "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                    }
+                }
+            },
+            "description_vector": {
+                "type": "knn_vector",
+                "dimension": 3072
+            },
+            "id": {
+                "type": "long"
+            },
+            "name": {
+                "type": "text",
+                "fields": {
+                    "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                    }
+                }
+            },
+            "price": {
+                "type": "float"
+            },
+            "rating": {
+                "type": "float"
+            },
+            "size": {
+                "type": "text",
+                "fields": {
+                    "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                    }
+                }
+            },
+            "sku": {
+                "type": "text",
+                "fields": {
+                    "keyword": {
+                        "type": "keyword",
+                        "ignore_above": 256
+                    }
+                }
+            },
+            "stock": {
+                "type": "long"
+            }
+        }
+    },
+    "settings": {
+        "index": {
+            "number_of_shards": "1",
+            "number_of_replicas": "0",
+            "knn": true
+        }
+    }
+}
