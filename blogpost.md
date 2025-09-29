@@ -2,7 +2,7 @@
 
 Aiven for OpenSearch is the best way to run OpenSearch on Google Cloud. Aiven for OpenSearch is a fully-managed OpenSearch service that allows companies to run search applications without the burden and complexity of self-managing OpenSearch in the cloud.
 
-Aiven for OpenSearch on GCP runs on Google Cloud's industry-leading cloud infrastructure--Google Compute Engine, Google Cloud Storage, Private Service Connect, and more--to provide exceptional performance-cost ratio while supporting enterprise grade security requirements. Aiven also offers native, out-of-the-box integrations with Google services such as Big Query, Pub/Sub, Cloud Logging, and others to provide a Google-native experience to your OpenSearch-based solution. Finally, Aiven makes it easy to procure an OpenSearch managed service by making it available through the Google Cloud Marketplace. 
+Aiven for OpenSearch on GCP runs on Google Cloud's industry-leading cloud infrastructure--Google Compute Engine, Google Cloud Storage, Private Service Connect, and more--to provide exceptional performance-cost ratio while supporting enterprise grade security requirements. Aiven also offers native, out-of-the-box integrations with Google services such as Big Query, Pub/Sub, Cloud Logging, and others to provide a Google-native experience to your OpenSearch-based solution. Finally, Aiven lets you pay for your OpenSearch managed service through your Google account by making it available through the Google Cloud Marketplace. 
 
 Companies like Adeo, Mirakl, and Priceline rely on Aiven for OpenSearch to support their mission-critical search and analytics workloads on Google Cloud. In this post, we'll show you how you can use Aiven for OpenSearch with Vertex AI to build a vector search application. 
 
